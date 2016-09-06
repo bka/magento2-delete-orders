@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="delete_orders" frontName="delete_orders">
+            <module name="Bka_DeleteOrders" after="Magento_Sales" />
+        </route>
+    </router>
+</config>

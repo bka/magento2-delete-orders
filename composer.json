@@ -1,0 +1,28 @@
+{
+    "name": "bka/delete-orders",
+    "description": "Massdelete orders in admin panel",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.1.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bka\\DeleteOrders\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/"
+        }
+    }
+}
